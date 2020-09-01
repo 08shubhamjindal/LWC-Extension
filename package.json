@@ -1,0 +1,26 @@
+{
+    "name": "lwcsnippets",
+    "displayName": "lwcsnippets",
+    "description": "Simple LWC library Snippets",
+    "version": "1.0.0",
+    "publisher": "test",
+    "icon" : "icon.png",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/08shubhamjindal/xyz"
+    },
+    "engines": {
+        "vscode": "^1.48.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
